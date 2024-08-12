@@ -115,7 +115,7 @@ The trained model is saved to a file named `trained_model.pkl` using the `pickle
 ## Project Structure
 
 - `run_model.py`: Main script for loading the model and predicting the class of a given text message.
-![query example](../query_example.png)
+![pic/query_example.png](pic/query_example.png)
 - `dictionary.csv`: File containing the dictionary of unique tokens.
 - `labels.csv`: File containing the label classes.
 - `trained_model.pkl`: File where the trained model is saved.

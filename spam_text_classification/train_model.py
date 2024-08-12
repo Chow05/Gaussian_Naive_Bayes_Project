@@ -110,7 +110,7 @@ def main():
     test_accuracy = accuracy_score(y_test, trained_model.predict(x_test))
     print(f'Val accuracy: {val_accuracy:.5f}')
     print(f'Test accuracy: {test_accuracy:.5f}')
-    save_model(trained_model, 'trained_model.pkl')
+    save_model(trained_model, 'spam_text_classification/trained_model.pkl')
 
 
 if __name__ == "__main__":

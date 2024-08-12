@@ -59,7 +59,7 @@ def main():
     print(f'\nClass {y[0]} is {label_encoder.classes_[0]}')
     print(f'Class {y[1]} is {label_encoder.classes_[1]}\n')
 
-    trained_model = load_model('trained_model.pkl')
+    trained_model = load_model('spam_text_classification/trained_model.pkl')
 
     # Use model to predict message is spam or ham
     query_input = 'Congatulations! you just win a prize for 1000th customer of FA website'  # spam
